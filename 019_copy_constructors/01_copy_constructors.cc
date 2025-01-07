@@ -45,6 +45,7 @@ public:
         {
             p[i] = myArray_object.p[i];
         }
+        this->size = myArray_object.size;
     }
 
     void put(int i, int j)
@@ -75,6 +76,7 @@ int main()
 
     for (i = 0; i < 10; i++)
         cout << x.get(i) << " ";
+        
 }
 
 // Note : "num.p" and "x.p" do not point to the same piece of memory
