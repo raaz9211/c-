@@ -1,0 +1,3 @@
+When a function supplied by the C++ standard library throws an exception, it will be
+an object derived from the base class exception. An object of the class bad_exception
+can be thrown by the unexpected handler. These classes require the header <exception>

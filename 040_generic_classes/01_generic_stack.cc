@@ -1,5 +1,6 @@
 // This function demonstrates a generic stack.
 #include <iostream>
+#include<vector>
 using namespace std;
 
 // Create a generic stack class
@@ -72,3 +73,5 @@ int main()
 
     return 0;
 }
+
+// Note : You can store pointer as well by "stack<char *> chrptrQ;"

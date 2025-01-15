@@ -1,0 +1,23 @@
+Typename:
+
+template <typename X> void swapargs(X &a, X &b)
+{
+    X temp;
+    temp = a;
+    a = b;
+    b = temp;
+}
+
+1. typename specifies the generic type X. There is no difference between using class
+and using typename in this context.
+
+2. typename is to inform the compiler that a name used in a template declaration is a type name rather than an object name. 
+For example : typename X::Name someObject;
+
+-------------------------------------------------------
+
+Export:
+
+The export keyword can precede a template declaration. It allows other files to use
+a template declared in a different file by specifying only its declaration rather than
+duplicating its entire definition.
