@@ -1,0 +1,27 @@
+- The I/O classes begin with a system of template classes.
+- Standard C++ creates two specializations of the I/O template classes: one for 8-bit characters and another for wide characters.
+
+- The C++ I/O system is built upon two related but different template class hierarchies:
+    - The first is derived from the low-level I/O class called basic_streambuf.
+      This class supplies the basic, low-level input and output operations, and provides the
+      underlying support for the entire C++ I/O system. Unless you are doing advanced I/O
+      programming, you will not need to use basic_streambuf directly.
+
+    - This is a high-level I/O class that provides formatting, error checking, and status information
+      related to stream I/O.
+      basic_ios is used as a base for several derived classes, including basic_istream, basic_ostream, and basic_iostream
+
+
+List of the mapping of template class names to their character and wide-character ersions.
+        _______________________________________________________________________
+        |Template Class   | Character-based Class | Wide-Character-based Class|
+        ```````````````````````````````````````````````````````````````````````
+        | basic_streambuf | streambuf             | wstreambuf                |
+        | basic_ios       | ios                   | wios                      |
+        | basic_istream   | istream               | wistream                  |
+        | basic_ostream   | ostream               | wostream                  |
+        | basic_iostream  | iostream              | wiostream                 |
+        | basic_fstream   | fstream               | wfstream                  |
+        | basic_ifstream  | ifstream              | wifstream                 |
+        | basic_ofstream  | ofstream              | wofstream                 |
+        ```````````````````````````````````````````````````````````````````````

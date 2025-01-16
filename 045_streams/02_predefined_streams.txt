@@ -1,0 +1,17 @@
+When a C++ program begins execution, four built-in streams are automatically opened.
+They are:
+        ____________________________________________________
+        | Stream | Meaning                 | Default Device|
+        ````````````````````````````````````````````````````
+        | cin    | Standard input           | Keyboard     |
+        | cout   | Standard output          | Screen       |
+        | cerr   | Standard error output    | Screen       |
+        | clog   | Buffered version of cerr | Screen       |
+        ````````````````````````````````````````````````````
+Streams cin, cout, and cerr correspond to C's stdin, stdout, and stderr.
+
+By default, the standard streams are used to communicate with the console
+
+Standard C++ also defines these four additional streams: win, wout, werr, and
+wlog. These are wide-character versions of the standard streams. Wide characters are
+of type wchar_t and are generally 16-bit quantities
