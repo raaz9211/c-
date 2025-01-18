@@ -1,0 +1,39 @@
+### Table of C++ Manipulators
+
+| Manipulator               | Purpose                                             | Input/Output |
+|---------------------------|-----------------------------------------------------|--------------|
+| **boolalpha**             | Turns on `boolalpha` flag.                          | Input/Output |
+| **dec**                   | Turns on `dec` flag.                                | Input/Output |
+| **endl**                  | Outputs a newline character and flushes the stream. | Output       |
+| **ends**                  | Outputs a null character.                           | Output       |
+| **fixed**                 | Turns on `fixed` flag.                              | Output       |
+| **flush**                 | Flushes the stream.                                 | Output       |
+| **hex**                   | Turns on `hex` flag.                                | Input/Output |
+| **internal**              | Turns on `internal` flag.                           | Output       |
+| **left**                  | Turns on `left` flag.                               | Output       |
+| **noboolalpha**           | Turns off `boolalpha` flag.                         | Input/Output |
+| **noshowbase**            | Turns off `showbase` flag.                          | Output       |
+| **noshowpoint**           | Turns off `showpoint` flag.                         | Output       |
+| **noshowpos**             | Turns off `showpos` flag.                           | Output       |
+| **noskipws**              | Turns off `skipws` flag.                            | Input        |
+| **nounitbuf**             | Turns off `unitbuf` flag.                           | Output       |
+| **nouppercase**           | Turns off `uppercase` flag.                         | Output       |
+| **oct**                   | Turns on `oct` flag.                                | Input/Output |
+| **resetiosflags(f)**      | Turns off the flags specified in `f`.               | Input/Output |
+| **right**                 | Turns on `right` flag.                              | Output       |
+| **scientific**            | Turns on `scientific` flag.                         | Output       |
+| **setbase(int base)**     | Sets the number base to `base`.                     | Input/Output |
+| **setfill(int ch)**       | Sets the fill character to `ch`.                    | Output       |
+| **setiosflags(f)**        | Turns on the flags specified in `f`.                | Input/Output |
+| **setprecision(int p)**   | Sets the number of digits of precision.             | Output       |
+| **setw(int w)**           | Sets the field width to `w`.                        | Output       |
+| **showbase**              | Turns on `showbase` flag.                           | Output       |
+| **showpoint**             | Turns on `showpoint` flag.                          | Output       |
+| **showpos**               | Turns on `showpos` flag.                            | Output       |
+| **skipws**                | Turns on `skipws` flag.                             | Input        |
+| **unitbuf**               | Turns on `unitbuf` flag.                            | Output       |
+| **uppercase**             | Turns on `uppercase` flag.                          | Output       |
+| **ws**                    | Skips leading white spaces.                         | Input        |
+
+- To access manipulators that take parameters (such as `setw()`), you must include the `<iomanip>` header in your program.
+
